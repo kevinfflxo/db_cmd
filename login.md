@@ -7,4 +7,4 @@ mysql -u kevin -p -h localhost
 ```
 執行結果如下圖：
 
-![image alt][./login.png]
+![image](./images/login.png)
