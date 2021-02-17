@@ -12,7 +12,9 @@ mysql -u kevin -p -h localhost
 
 ![image](./images/login.png)
 
-再輸入密碼即可完成登入
+再輸入密碼即可完成登入，執行結果如下圖：
+
+![image](./images/login1.png)
 
 ---
 
