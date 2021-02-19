@@ -1,7 +1,8 @@
 ## 閱讀順序
 
 login -> database -> table -> crud
-如果需要新增使用者再看 permission
+
+需要新增使用者再看 permission
 
 ## 注意事項
 
@@ -9,6 +10,6 @@ login -> database -> table -> crud
 
 ![image](./images/readme.png)
 
-那是因為指令忘記加 ";" 就按 Enter，補上 ";" 就可以了
+那是因為指令忘記加 ";" 就按 Enter，補上 ";" 即可
 
 ![image](./images/readme1.png)
