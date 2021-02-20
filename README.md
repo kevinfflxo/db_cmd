@@ -1,6 +1,6 @@
 ## 閱讀順序
 
-login -> database -> table -> crud
+login -> database -> table -> data
 
 需要新增使用者再看 permission
 
