@@ -2,6 +2,8 @@
 
 login -> database -> table -> crud
 
+crud 為 create, read, update, delete
+
 需要新增使用者再看 permission
 
 ## 注意事項
