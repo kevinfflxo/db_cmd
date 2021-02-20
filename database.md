@@ -8,6 +8,12 @@
 SHOW DATABASES;
 ```
 
+* **查看特定資料庫的原始碼**
+
+```
+SHOW CREATE DATABASE newdatabase;
+```
+
 * **切換資料庫**
 
     > 切換資料庫後才能做 **table** 的操作，請參閱：[table](./table.md)
@@ -21,6 +27,20 @@ USE newdatabase;
 ```
 CREATE DATABASE newdatabase;
 ```
+
+* **建立資料庫，並設定 CHARACTER SET 及 COLLATE**
+
+    > 基本上都是以 utf8mb4 為主
+
+```
+CREATE DATABASE newdatabase
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+```
+
+建議每輸入一行就按一次 Enter，執行結果如下圖：
+
+ ![image](./images/database_create.png)
 
 * **移除資料庫**
 
@@ -40,7 +60,7 @@ DROP DATABASE newdatabase;
 mysqldump -u kevin -p -h localhost newdatabase > E:\newdatabase.sql
 ```
 
-![image](./images/database.png)
+![image](./images/database_backup.png)
 
 再輸入密碼即可完成備份
 
