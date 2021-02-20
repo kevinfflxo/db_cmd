@@ -55,7 +55,7 @@ COLLATE utf8mb4_unicode_ci
 也是一樣建議每輸入一行就按一次 Enter
 
 
-* **移除資料庫**
+* **刪除資料庫**
 
 ```
 DROP DATABASE newdatabase;
