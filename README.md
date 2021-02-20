@@ -18,13 +18,13 @@ login -> database -> table -> data
 
 * **在資料庫未登入的時候**
 
-```sql=
+```
 mysql -V
 ```
 
 * **在資料庫登入的時候**
 
-```sql=
+```
 SELECT VERSION();
 ```
 
@@ -32,6 +32,6 @@ SELECT VERSION();
 
 * **前面加個 system 即可**
 
-```sql=
+```
 system cls
 ```
