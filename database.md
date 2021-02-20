@@ -42,6 +42,19 @@ COLLATE utf8mb4_unicode_ci;
 
  ![image](./images/database_create.png)
 
+* **修改資料庫 CHARACTER SET 及 COLLATE 設定**
+
+    > 以 utf8mb4 為例
+
+```
+ALTER DATABASE newdatabase
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci
+```
+
+也是一樣建議每輸入一行就按一次 Enter
+
+
 * **移除資料庫**
 
 ```
