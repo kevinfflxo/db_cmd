@@ -1,6 +1,6 @@
-## 資料庫基本操作
+本文以 **資料庫：newdatabase** 做為範例說明
 
-以 **資料庫：newdatabase** 做為範例說明
+## 資料庫基本操作
 
 * **建立資料庫**
 
@@ -35,3 +35,9 @@ mysqldump -u kevin -p -h localhost newdatabase > E:\newdatabase.sql
 ![image](./images/database.png)
 
 再輸入密碼即可完成備份
+
+* **備份資料庫(含 Stored Procedure/Stored Function/Trigger)**
+
+```
+mysqldump --routines -u kevin -p -h localhost newdatabase > E:\newdatabase.sql
+```
