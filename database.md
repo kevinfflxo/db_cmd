@@ -2,18 +2,24 @@
 
 以 **資料庫：newdatabase** 做為範例說明
 
-* **建立資料庫**
+* **查看所有資料庫**
 
 ```
-CREATE DATABASE newdatabase;
+SHOW DATABASES;
 ```
 
 * **切換資料庫**
 
-    > 切換資料庫後才能做 **table** 的在操作，請參閱 : [table](./table.md)
+    > 切換資料庫後才能做 **table** 的在操作，請參閱：[table](./table.md)
 
 ```
 USE newdatabase;
+```
+
+* **建立資料庫**
+
+```
+CREATE DATABASE newdatabase;
 ```
 
 * **移除資料庫**
