@@ -11,6 +11,7 @@ CREATE DATABASE newdatabase;
 * **step 2：建立新帳號**
 
     > ID：newuser
+    
     > PASSWORD：newpassword
 
 ```
