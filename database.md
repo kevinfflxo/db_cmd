@@ -10,7 +10,7 @@ SHOW DATABASES;
 
 * **切換資料庫**
 
-    > 切換資料庫後才能做 **table** 的在操作，請參閱：[table](./table.md)
+    > 切換資料庫後才能做 **table** 的操作，請參閱：[table](./table.md)
 
 ```
 USE newdatabase;
