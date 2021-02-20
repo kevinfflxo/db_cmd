@@ -38,6 +38,15 @@ mysqldump -u kevin -p -h localhost newdatabase > E:\newdatabase.sql
 
 * **備份資料庫(含 Stored Procedure/Stored Function/Trigger)**
 
+    > 需注意 **DEFINER** 不會因為備份帳號的不同而有所改變
+
 ```
 mysqldump --routines -u kevin -p -h localhost newdatabase > E:\newdatabase.sql
 ```
+
+* **還原資料庫**
+
+```
+mysql -u kevin -p -h localhost newdatabase < E:\newdatabase.sql
+```
+
