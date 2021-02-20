@@ -72,3 +72,44 @@ INSERT INTO `newtable`(`name`, `email`, `password`, `saved`) VALUES ('newuser', 
 ```
 INSERT INTO `newtable` VALUES (1, 'newuser', 'newemail@example.com', 'newpassword', '[]', NULL, NULL);
 ```
+
+---
+
+### 更新資料
+
+**UPDATE Syntax (常用的)**
+
+```
+UPDATE tbl_name
+    SET col_name1=expr1 [, col_name2=expr2, ...]
+    [WHERE where_definition]
+```
+
+* 更新 **id = 1** 的資料，設定 **name = user**
+
+```
+UPDATE `newtable` SET `name` = 'user' WHERE `id` = 1;
+```
+
+---
+
+### 刪除資料
+
+**DELETE Syntax (常用的)**
+
+```
+DELETE FROM table_name
+    [WHERE where_definition]
+```
+
+如果沒有 **[WHERE where_definition]** 則相當於 **TRUNCATE TABLE**
+
+```
+TRUNCATE TABLE newtable;
+```
+
+* 刪除 **id = 1** 的資料
+
+```
+DELETE FROM `newtable` WHERE `id` = 1;
+```
