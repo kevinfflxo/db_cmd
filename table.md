@@ -1,6 +1,6 @@
 ## 資料表基本操作
 
-1. 資料表的操作**需要先切換到database**，請參閱：[database](./database.md)
+1. 資料表的操作**需要先切換到 database**，請參閱：[database](./database.md)
 2. 本文以 **資料表：newtable**做為範例
 
 * **查看所有資料表**
@@ -9,7 +9,7 @@
 SHOW TABLES;
 ```
 
-* **查看特定資料表shema**
+* **查看特定資料表 shema**
 
 ```
 DESCRIBE newtable;
@@ -54,3 +54,15 @@ CREATE TABLE `users` (
 ![image](./images/table_create.png)
 
 **程式碼非常長**，建議用熟悉的 DBMS 建立資料表
+
+* **清空資料表**
+
+```
+TRUNCATE TABLE newtable;
+```
+
+* **刪除資料表**
+
+```
+DROP TABLE newtable;
+```
