@@ -36,7 +36,7 @@ SHOW CREATE TABLE newtable;
 |updated_at|timestamp      |    |
 
 ```
-CREATE TABLE `users` (
+CREATE TABLE `newtable` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
