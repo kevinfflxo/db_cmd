@@ -10,8 +10,7 @@ CREATE DATABASE newdatabase;
 
 * **step 2：建立新帳號**
 
-    > ID：newuser 
-    > PASSWORD：newpassword
+    > ID：newuser，PASSWORD：newpassword
 
 ```
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'newpassword';
