@@ -16,7 +16,7 @@ CREATE DATABASE newdatabase;
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'newpassword';
 ```
 
-    > 如果要使用舊版的加密方式登入(新版為caching_sha2_password)
+> 如果要使用舊版的加密方式登入(新版為caching_sha2_password)
 
 ```
 CREATE USER 'newuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
