@@ -29,6 +29,12 @@ GRANT ALL PRIVILEGES ON newdatabase.* TO 'newuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+* **補充：賦予新帳號 root 權限**
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost' WITH GRANT OPTION;
+```
+
 ## 移除使用者帳號
 
 * **step 1：查看使用者**
