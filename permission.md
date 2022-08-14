@@ -47,6 +47,7 @@ SELECT `Host`, `User` FROM `mysql`.`user`;
 
 ```
 SHOW GRANTS FOR 'newuser'@'localhost';
+SHOW GRANTS FOR 'newuser'@'localhost'\G;
 ```
 
 * **step 3：移除權限**
