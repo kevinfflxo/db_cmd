@@ -47,7 +47,7 @@ SELECT `Host`, `User` FROM `mysql`.`user`;
 
 ```
 SHOW GRANTS FOR 'newuser'@'localhost';
-SHOW GRANTS FOR 'newuser'@'localhost'\G;
+SHOW GRANTS FOR 'newuser'@'localhost'\G; 加\G排版
 ```
 
 * **step 3：移除權限**
